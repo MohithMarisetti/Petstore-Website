@@ -1,0 +1,157 @@
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.column {
+   width:80%;
+    float: left;
+    height:750px; 
+    padding-top: 0px;
+}
+
+.left {
+  width: 15%;
+  background-color: #90C7E3;
+}
+
+.right {
+  width: 85%;
+  border-color: #90C7E3;
+  border-style: solid;
+  border-width: 10px 0px 0px 10px;
+  padding-left: 0px;
+  padding-top: 0px;
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+  border-spacing: 0px;
+    padding-top: 0px;
+}
+
+footer{
+font-size: 0.7em;
+font: italics;
+text-align: center;
+width:90%;
+background-color: #FFFFFF;
+}
+
+
+header{
+  background-color: #000033;
+
+}
+
+
+
+h1{
+  line-height: 200%;
+  color:white;
+}
+
+
+h2{
+  color: #3399CC; 
+  font-family: Georgia, serif;
+}
+body{
+  background-color: #FFFFFF;
+  box-shadow: 0px 10px #000000;
+  height: 100%;
+  color: #666666;
+  font-family: Verdana, Arial , sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+nav{
+  background-color: #90C7E3;
+  font-weight: bold;
+}
+
+img{
+  height:300px;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+  background-color: #90C7E3;
+  font-weight: bold;
+}
+#wrapper{
+
+
+width: 80%;
+}
+
+table{
+  width: 90%;
+  border-spacing: 0px;
+
+}
+
+table tr:nth-child(odd) td{
+background-color: #90C7E3;
+}
+
+
+
+
+
+  
+
+
+
+
+
+@media only screen and (max-width: 960px) {
+header{
+  width: 100%;
+}
+.left {
+  width: 100%;
+  float: left;
+  height: 50%;
+
+}
+
+.right {
+  width: 100%;
+  float: left;
+  height:110%;
+}
+
+img{
+  height: 30%;
+}
+
+#row{
+  width: 100%;
+  float: left;
+}
+textarea{
+  width: 100%;
+}
+td{
+  float: left;
+}
+
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="pet.css">
+
+</head>
+<body id="wrapper">
+
+<header >
+    <h1>Pet Store</h1>
+</header>
+
+<div class="row">
+  <div class="column left" >
+
+    <nav>
+<a href='index.html' > Home </a> <br>
+<a href='aboutUs.html' > About Us </a> <br>
+<a href='contactus.html' > Contact Us </a> <br>
+<a href='client.html' > Client </a> <br>
+<a href='#' > Service </a> <br>
+<a href='login.html' > Login </a> 
+</nav>
+
+  </div>
+  <div class="column right">
+   <img src="index pic.png">
+
+<h2>
+  Service
+</h2>
+
+
+Required information is marked with an asterick(*)
+
+<form action="NewUser.php" method = "post">
+    <input type="hidden" name="roleid" value="1">
+  <table >
+  <tr>
+  <td>*First Name:</td> <td>   <input type="text" name="fname" value="" required > </td>
+  </tr>
+ 
+  <tr>
+  <td>*Last Name:</td> <td>   <input type="text" name="lname" value="" required> </td>
+  </tr>
+ 
+  <tr>
+  <td>*E-mail:</td> <td>   <input type="email" name="emailid" value="" required> </td>
+  </tr>
+  <tr>
+  <td>Phone:</td> <td>   <input type="text" name="phone" value=""> </td>
+  </tr>
+
+  <tr>
+  <td>Business Name:</td> <td>   <input type="text" name="businessname" value=""> </td>
+  </tr>
+  
+  <tr> <td> </td></tr></table> 
+  <br>
+  <input type="submit" value="Submit">
+
+</form>
+
+
+<br><br>
+
+<footer>
+    <i>Copyright&copy; 2018 Pet Store<br><a href="mailto:mohith@marisetti.com">mohith@marisetti.com</a>
+  
+
+</footer>
+
+
+  </div>
+</div>
+
+</body>
+</html>
